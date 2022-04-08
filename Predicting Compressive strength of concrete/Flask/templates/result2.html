@@ -1,0 +1,67 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Cement Strength Prediction</title>
+    <style>
+    body{
+    background-image:url('static/bg12.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+      font-family:Arial, Helvetica, sans-serif;
+    
+    }
+  
+  .welcome-text{
+ background: #f4f7f8;
+    position: absolute;
+    width: 600px;
+    height: 120px;
+    margin: 7% 27%;
+    padding:10px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    }
+    .welcome-text input[type="submit"]
+  {
+      position: relative;
+      display: block;
+    padding: 12px 34px;
+      color: #f4f7f8;;
+      margin: 0 auto;
+      background: black;
+      font-size: 20px;
+      text-align: center;
+      font-style: normal;
+      border-radius: 15px;
+      border-width: 1px 1px ;
+      margin-bottom: 10px;
+  }
+  .welcome-text input[type="submit"]:hover
+  {
+      background: grey;
+  }
+   </style>
+</head>
+<body >
+                
+ <div class="welcome-text">
+		<h1><center><b>Cement Strength Prediction</b></center></h1>
+
+
+		<!-- Result -->
+		<div class="results">
+			<div class="one">
+	<h3><b><p class="i3"><center>Strength of the cement is {{prediction_text}} MPa</center></b></h3></p>
+</div>
+		</div>
+</div> 
+
+	</body>
+</html>
